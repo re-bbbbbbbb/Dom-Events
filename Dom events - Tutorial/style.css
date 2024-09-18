@@ -1,0 +1,64 @@
+html{
+    background-color: #000080;
+}
+
+#h1{
+    text-align: center;
+    font-size:400%;
+    background-color: #9ec8ff;
+    padding: 1%;
+    color: #00008B;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 270%;
+    color: #0000b5;
+    border-radius: 7px;
+}
+
+h3{
+    font-size: 200%;
+    color: #0000b5;
+    border-radius: 7px;
+}
+
+#div1, #div2, #div4, #div5, #div6, #div7{
+    background-color: #9ec8ff;
+    padding: 1%;
+    font-size: 120%;
+    border-radius: 7px;
+}
+
+#para5{
+    background-color:#ff57a2;
+    width:240px; 
+    height:20px; 
+    padding:40px;
+    text-align: center;
+}
+
+#para4{
+    background-color:#ff57a2;
+    width: 450px;
+    height:30px;
+    padding:40px;
+    text-align: center;
+}
+
+b{
+    color: #6c00ba;
+    font-size: 120%;
+}
+
+#nome{
+    height: 7mm;
+    width: 70mm;
+}
+
+#esemPet20, #esemPet21, #esemPet22{
+    height: 9mm;
+    font-size: 4mm;
+    background-color: #ffc2de;
+    border-color: #86003c
+}

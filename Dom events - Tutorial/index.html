@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dom Events</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 id="h1">Dom Events</h1>
+</br>
+
+
+<div id="div1">
+    <h2>Reazione agli eventi</h2>
+    <p>Javascript può essere eseguito quando un evento viene <b>verificato</b>, un esempio è quando l'utente clicca su un elemento HTML.</p>
+    <p>Per eseguire il codice quando l'utente fa clic sull'elemento, bisogna aggiungere al codice JavaScript un <b>attributo</b>, cioè <b>onclick = <i>JavaScript</i></b>.</p>
+    <p>Alcuni esempi degli eventi sono:
+        <ul>
+            <li>Un utente fa clic con il mouse;</li>
+            <li>Una pagina web è stata caricata;</li>
+            <li>Un'immagine è stata caricata;</li>
+            <li>Il mouse viene spostanto su un elemento;</li>
+            <li>Un campo input viene modificato;</li>
+            <li>Un form HTML viene presentato;</li>
+            <li>Un utente preme un tasto.</li>
+        </ul>
+    </p>
+    <h3>Esempi</h3>
+        <ul>
+            <li>
+                Il contenuto del tag viene modificato quando un utente fa clic su esso. <p onclick="this.innerHTML = 'Ridurre l inquinamento prodotto dalle città'">Clicca su questo testo per scoprire a cosa mira l' obiettivo 11 dell'agenda 2030</p>
+            </li>
+            </br>
+            <li>
+                Una funzione viene chiamata dal gestore eventi. <p id="testo" onclick="CambiaTesto()">Clicca qui per scoprire cos'è una smart city</p>
+            </li>
+        </ul>
+        </br>
+</div>
+</br>
+
+
+
+<div id="div2">
+    <h2>Attributi degli eventi HTML</h2>
+    <p>Per assegnare degli eventi agli elementi HTML è possibile utilizzare gli <b>attributi dell'evento</b>. </p>
+    <h3>Esempio</h3>
+       <button id="esemPet20" onclick="petrolio2020()">Petrolio usato nel 2020</button>
+       <button id="esemPet21" onclick="petrolio2021()">Petrolio usato nel 2021</button>
+       <button id="esemPet22" onclick="petrolio2022()">Petrolio usato nel 2022</button>
+</div>
+</br>
+
+
+<div id="div7">
+    <h2>L'evento onchange</h2>
+    <p>L'<b>onchange</b> viene spesso utilizzato in combinazione con la convalida dei campi di input.</p>
+    <h3>Esempio</h3>
+        Inserisci un requisito che deve avere una città per essere sostenibile: <input type="text" id="nome" onchange="upperCase()">
+    <p>Quando si esce dalla casella di testo, viene attivata la funzione <b>upperCase()</b> che trasforma il testo inserito dall'utente in maiuscolo.</p>
+</div>
+</br>
+
+
+
+<div id="div4">
+    <h2>Gli eventi onmouseover e onmouseout</h2>
+    <p>L'<b>onmouseover</b> e l'<b>onmouseout</b> possono essere utilizzati per attivare una funzione quando l'utente passa con il mouse sopra o fuori da un elemento HTML.</p>
+    <h3>Esempio</h3>
+        <p id="para4" onmouseover="mOver(this)" onmouseout="mOut(this)">Cosa? Non sai cos'è l'agenda 2030? Passa il mouse qui sopra</p>
+</div>
+</br>
+
+<div id="div5">
+    <h2>Gli eventi onmousedown, onmouseup e onclick</h2>
+    <p>L'<b>onmousedown</b>, l'<b>onmouseup</b> e l'<b>onclick</b> sono sono tutti eventi del clic del mouse.
+       <ul>
+            <li>Onmousedown --> attivato quando viene <b>premuto</b> il pulsante del mouse;</li>
+            <li>Onmouseup --> attivato quando il pulsante del mouse viene <b>rilasciato</b>;</li>
+            <li>Onclick --> attivato quando il clic del mouse è <b>completato</b>.</li>
+       </ul>
+    </p>
+    <h3>Esempio</h3>
+        <p id="para5" onmousedown="mDown(this)" onmouseup="mUp(this)">Clicca qui</p>
+</div>
+</br>
+
+<div id="div6">
+    <h2>Altri dom events</h2>
+    <p>Sono presenti anche altri eventi, ovvero:
+        <ul>
+            <li><b>Onfocus</b> --> cambia il colore di sfondo di un campo di input quando viene messo in evidenza;</li>
+            <li><b>Mouse events</b> --> cambia il colore di un elemento quando il cursore si sposta su di esso.</li>
+        </ul>
+    </p>
+</div>
+</body>
+</html>
