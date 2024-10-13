@@ -5,7 +5,7 @@ html{
 #h1{
     text-align: center;
     font-size:400%;
-    background-color: #9ec8ff;
+    background-color: white;
     padding: 1%;
     color: #00008B;
     border-radius: 7px;
@@ -23,15 +23,19 @@ h3{
     border-radius: 7px;
 }
 
+#div1{
+    margin-top: -40px;
+}
+
 #div1, #div2, #div4, #div5, #div6, #div7{
-    background-color: #9ec8ff;
+    background-color: white;
     padding: 1%;
     font-size: 120%;
     border-radius: 7px;
 }
 
 #para5{
-    background-color:#ff57a2;
+    border: 5px double #6c00ba;
     width:240px; 
     height:20px; 
     padding:40px;
@@ -39,11 +43,12 @@ h3{
 }
 
 #para4{
-    background-color:#ff57a2;
+    background-color:#eacdff;
     width: 450px;
     height:30px;
     padding:40px;
     text-align: center;
+    border: 5px double #6c00ba;
 }
 
 b{
@@ -59,6 +64,6 @@ b{
 #esemPet20, #esemPet21, #esemPet22{
     height: 9mm;
     font-size: 4mm;
-    background-color: #ffc2de;
-    border-color: #86003c
+    background-color: #eacdff;
+    border: 5px double #6c00ba;
 }

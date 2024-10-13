@@ -1,9 +1,9 @@
 html{
-    background-color: #004800;
+    background-color: rgb(255, 159, 36);
 }
 
 #titoloDiv{
-    background-color: #cbffcb;
+    background-color: white;
     padding: 1%;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
@@ -11,7 +11,7 @@ html{
 
 .topnav {
     overflow: hidden;
-    background-color: #001200;
+    background-color: rgb(74, 47, 12);
     margin-top: 3px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -20,7 +20,7 @@ html{
 .topnav a {
     float: left;
     display: block;
-    color: #cbffcb;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,29 +28,29 @@ html{
 }  
 
 .topnav a:hover {
-    background-color: #cbffcb;
-    color: #001200;
+    background-color: white;
+    color: rgb(74, 47, 12);
 }
 
 #h1{
     text-align: center;
     font-size:420%;
-    background-color: #cbffcb;
-    color: #001200;
+    background-color: white;
+    color: rgb(74, 47, 12);
 }
 
 #sottotitolo{
     font-size: 210%;
-    color: #001200;
+    color: rgb(74, 47, 12);
 }
 
 b{
-    color: #002d00;
+    color: rgb(74, 47, 12);
     font-size: 105%;
 }
 
 #agendaDiv, #obiettivoDiv, #requisitiDiv, #traguardiDiv, #idealeDiv{
-    background-color: #cbffcb;
+    background-color: white;
     padding: 1%;
     font-size: 140%;
     border-radius: 7px;
@@ -79,7 +79,7 @@ b{
 #idealeFoto{
     width: 310px;
     height: 310px;
-    border-color: #004800;
+    border-color: rgb(255, 159, 36);
     border-style: groove;
     border-width: 3px;
 }
@@ -92,19 +92,19 @@ b{
 #primoButton, #secondoButton, #terzoButton, #quartoButton, #quintoButton, #sestoButton, #settimoButton, #ottavoButton, #nonoButton, #decimoButton, #undicesimoButton, #dodicesimoButton{
     height: 13mm;
     font-size: 4mm;
-    background-color: #e7e7ff;
-    border-color: #0000FF;
+    background-color: white;
+    border-color: rgb(74, 47, 12);
     border-width: 1mm;
 }
 
 #primoMouse, #secondoMouse, #terzoMouse, #quartoMouse, #quintoMouse, #sestoMouse{
-    background-color: #e7e7ff;
+    background-color: white;
     width: auto;
     height: auto;
     padding: 5px;
     text-align: center;
     color: black;
-    border-color: #0000FF;
+    border-color: rgb(74, 47, 12);
     border-style: groove;
     border-width: 1mm;
 }

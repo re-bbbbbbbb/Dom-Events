@@ -28,11 +28,11 @@ function mOut(obj) {
 }
 
 function mDown(obj) {
-  obj.style.backgroundColor = "#a763ff";
+  obj.style.backgroundColor = "#eacdff";
   obj.innerHTML = "Non inquinare >:(";
 }
 
 function mUp(obj) {
-  obj.style.backgroundColor="#fc60fa";
+  obj.style.backgroundColor="#dfb5fd";
   obj.innerHTML="e fai la raccolta differenziata.";
 }
